@@ -18,9 +18,8 @@ void loop()
 
 void ReceiveData(int byte_count) 
 {
-  for (int i = 0; i < byte_count; i++) {
+  for (int i = 0; i < byte_count; i++)
     data_to_echo = Wire.read();
-  }
 }
 
 void SendData() 
